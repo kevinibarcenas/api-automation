@@ -5,11 +5,7 @@ import static io.restassured.RestAssured.given;
 import com.kbarcenas.automation.main.models.PostModel;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.springframework.boot.autoconfigure.cassandra.CassandraProperties;
 import org.springframework.stereotype.Component;
-
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
 
 @Component
 public class HttpRequests {
