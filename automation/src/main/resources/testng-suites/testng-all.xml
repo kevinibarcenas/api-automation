@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="4">
+    <test name="Test Task - Automation">
+        <classes>
+            <class name="com.kbarcenas.automation.test.api.GetResourceTests"/>
+            <class name="com.kbarcenas.automation.test.api.CreateResourceTests"/>
+            <class name="com.kbarcenas.automation.test.api.PatchResourceTest"/>
+            <class name="com.kbarcenas.automation.test.api.PutResourceTests"/>
+            <class name="com.kbarcenas.automation.test.api.DeleteResourceTest"/>
+        </classes>
+    </test>
+</suite>
